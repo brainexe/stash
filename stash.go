@@ -154,7 +154,9 @@ type (
 	}
 
 	Ref struct {
-		DisplayID string `json:"displayId"`
+		ID           string `json:"id"`
+		LatestCommit string `json:"latestCommit"`
+		DisplayID    string `json:"displayId"`
 	}
 
 	errorResponse struct {
